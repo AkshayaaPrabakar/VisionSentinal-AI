@@ -27,7 +27,7 @@ plt.style.use('dark_background')
 load_dotenv()
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyCCKYQT6Hrx_b8IrSBmPy6a82DYlIz5pE4")
+genai.configure(api_key="YOUR API KEY")
 
 # Set up the model
 model = genai.GenerativeModel('gemini-1.5-pro')
